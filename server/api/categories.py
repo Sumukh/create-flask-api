@@ -1,12 +1,16 @@
 from flask_restful import Resource, fields, marshal_with
 
+
 class Category:
     def __init__(self, id, name, state='featured'):
         self.id = id
         self.name = name
         self.state = state
 
-# Example of returning objects and using a schema to marshal out specific fields
+# Example of returning objects and using a schema to marshal out specific
+# fields
+
+
 class CategoriesApi(Resource):
     get_fields = {
         'name': fields.String,

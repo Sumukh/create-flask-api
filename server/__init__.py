@@ -1,6 +1,7 @@
 from flask import Flask
 from server.api import api_blueprint
 
+
 def create_app(object_name='server.settings.DevConfig'):
     """
     An flask application factory, as explained here:
