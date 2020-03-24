@@ -8,7 +8,7 @@ A boilerplate Flask application on which to build APIs using best practices.
 - ✅ RESTful API (with argument validation & output schemas)
 - ✅ 100% Code Coverage in Tests
 - ✅ Using Flask Best Practices
-- ✅ Support Heroku Deployment
+- ✅ Support Deployment on Heroku, Now.sh
 - ✅ With an example image API
 
 
@@ -35,6 +35,19 @@ The API Endpoints are defined in `server/api` and registered to specific routes 
 To test with a coverage report:
 
 `pytest --cov-report term-missing --cov=server`
+
+## Deployment
+
+
+### Now.sh deployment
+
+```bash
+$ now
+```
+
+### Heroku Deployment
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 ## Limitations
 

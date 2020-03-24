@@ -19,7 +19,7 @@
         },
         "FLASK_APP": {
             "description": "Where the flask app lives.",
-            "value": "wsgi.py"
+            "value": "index.py"
         },
         "FLASK_ENV": {
             "description": "What environment is this in",
