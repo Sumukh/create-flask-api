@@ -1,0 +1,29 @@
+{
+    "name": "Create Flask API",
+    "description": "Flask API",
+    "keywords": [
+        "flask",
+        "api",
+        "scaffolding",
+        "ignite"
+    ],
+    "website": "https://github.com/sumukh/create-flask-api/",
+    "repository": "https://github.com/sumukh/create-flask-apiapi/",
+    "logo": "https://github.com/Sumukh/Ignite/raw/master/appname/static/public/ignite/ignite-icon.png",
+    "success_url": "/",
+    "scripts": {},
+    "env": {
+        "SECRET_TOKEN": {
+            "description": "A secret key for verifying the integrity of signed cookies.",
+            "generator": "secret"
+        },
+        "FLASK_APP": {
+            "description": "Where the flask app lives.",
+            "value": "wsgi.py"
+        },
+        "FLASK_ENV": {
+            "description": "What environment is this in",
+            "value": "prod"
+        }
+    }
+}

@@ -1,0 +1,1 @@
+FLASK_DEBUG="true" FLASK_APP="server:create_app" flask run

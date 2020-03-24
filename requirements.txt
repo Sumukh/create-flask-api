@@ -1,0 +1,29 @@
+Flask==1.1.1
+jinja2==2.11.1
+Werkzeug~=0.16.1
+
+requests
+gunicorn
+
+Flask-Caching>=1.3.3
+Flask-RESTful==0.3.8
+Flask-Limiter
+
+# Flask-SocketIO>=3.1.0 # Realtime Websockets
+# python-engineio>=3.0.0 # Needed to fix startup error
+
+# Timezones
+pytz
+arrow
+
+# Other
+itsdangerous==1.1.0
+hashids==1.2.0
+humanize==2.0.0
+
+# Testing
+pytest==5.4.1
+pytest-cov==2.8.1
+pytest-flask
+mccabe==0.6.1
+flake8==3.7.9
