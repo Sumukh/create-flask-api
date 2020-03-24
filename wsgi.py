@@ -10,5 +10,5 @@ $ flask run
 import os
 from server import create_app
 
-env = os.environ.get('FLASK_ENV', 'dev')
+env = os.environ.get('FLASK_ENV', 'prod')
 app = create_app('server.settings.%sConfig' % env.capitalize())

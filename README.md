@@ -1,4 +1,4 @@
-# Create Flask API
+# [<img src="https://github.com/Sumukh/Ignite/raw/master/appname/static/public/ignite/ignite-icon.png" width="25"/>](logo) Create Flask API
 
 A boilerplate Flask application on which to build APIs using best practices.
 
@@ -21,6 +21,10 @@ $ ./dev-server.sh # runs: FLASK_DEBUG="true" FLASK_APP="server:create_app" flask
 
 The API Endpoints are defined in `server/api` and registered to specific routes in `server/api/__init__.py`.
 
+* `server/api/__init__.py`
+* `server/api/wallpaper.py`
+* `tests/test_wallpaper_api.py`
+
 ## Testing
 
 To test with a coverage report:
@@ -29,4 +33,4 @@ To test with a coverage report:
 
 ## Limitations
 
-This repo is designed to be the barebones for an API. If you want to hook into a database or do  authentication, you should look into [Flask Ignite](https://github.com/sumukh/ignite)
+This repo is designed to be the barebone setup for an API. If you want to hook into a database or do  authentication, you should look into [Flask Ignite](https://github.com/sumukh/ignite)

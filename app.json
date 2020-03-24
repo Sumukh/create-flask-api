@@ -8,9 +8,9 @@
         "ignite"
     ],
     "website": "https://github.com/sumukh/create-flask-api/",
-    "repository": "https://github.com/sumukh/create-flask-apiapi/",
+    "repository": "https://github.com/sumukh/create-flask-api/",
     "logo": "https://github.com/Sumukh/Ignite/raw/master/appname/static/public/ignite/ignite-icon.png",
-    "success_url": "/",
+    "success_url": "/api/info",
     "scripts": {},
     "env": {
         "SECRET_TOKEN": {
