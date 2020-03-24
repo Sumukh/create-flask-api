@@ -2,11 +2,16 @@
 
 A boilerplate Flask application on which to build APIs using best practices.
 
+![Python application](https://github.com/Sumukh/create-flask-api/workflows/Python%20application/badge.svg)
+
+
 - ✅ RESTful API (with argument validation & output schemas)
 - ✅ 100% Code Coverage in Tests
 - ✅ Using Flask Best Practices
 - ✅ Support Heroku Deployment
 - ✅ With an example image API
+
+
 
 ## Installation
 
