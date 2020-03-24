@@ -2,7 +2,7 @@
     "version": 2,
     "name": "create-flask-api",
     "builds": [
-        { "src": "*", "use": "@liudonghua123/now-flask" , "config": { "maxLambdaSize": "30mb" } }
+        { "src": "index.py", "use": "@liudonghua123/now-flask" , "config": { "maxLambdaSize": "30mb" } }
     ],
     "routes": [
         { "src": "/.*", "dest": "/"}
