@@ -1,6 +1,6 @@
-# [<img src="https://github.com/Sumukh/Ignite/raw/master/appname/static/public/ignite/ignite-icon.png" width="25"/>](logo) Create Flask API
+# [<img src="https://github.com/Sumukh/Ignite/raw/master/appname/static/public/ignite/ignite-icon.png" width="25"/>](logo) Create Flask API (Flask Ignite)
 
-A boilerplate Flask application on which to build APIs using best practices.
+A boilerplate Flask application on which to build APIs using best practices. Designed to be the API only alternative for [Flask Ignite](https://github.com/Sumukh/Ignite).
 
 ![Python application](https://github.com/Sumukh/create-flask-api/workflows/Python%20application/badge.svg)
 
@@ -10,8 +10,6 @@ A boilerplate Flask application on which to build APIs using best practices.
 - ✅ Using Flask Best Practices
 - ✅ Support Deployment on Heroku, Now.sh
 - ✅ With an example image API
-
-
 
 ## Installation
 
